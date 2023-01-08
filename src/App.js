@@ -20,7 +20,7 @@ deleteItem = (id) => {
 return (
     <div className="App">
       <Additem />
-    <Todoitems items={this.state.items} deleteItem ={this.deleteItem()} />
+    <Todoitems items={this.state.items} deleteItem ={this.deleteItem(d)} />
     Test
     </div>
   );
